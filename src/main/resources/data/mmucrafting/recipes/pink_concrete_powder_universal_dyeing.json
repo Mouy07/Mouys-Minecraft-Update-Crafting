@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "universal_dyeing_concrete_powder",
+  "key": {
+    "#": {
+      "tag": "universal_dyeing:concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:pink_concrete_powder"
+  },
+  "show_notification": true
+}

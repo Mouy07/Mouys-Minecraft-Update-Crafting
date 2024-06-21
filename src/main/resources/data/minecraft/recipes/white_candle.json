@@ -1,0 +1,21 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+	    "tag": "universal_dyeing:candle"
+        },
+        "O": {
+            "item": "minecraft:white_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_candle",
+        "count": 8
+    },
+    "group": "universal_dyeing_candle"
+}
