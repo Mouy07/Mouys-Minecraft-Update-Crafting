@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_glass_panes",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:glass_pane_minus_lime"
+    },
+    "b": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:lime_stained_glass_pane"
+  },
+  "show_notification": true
+}

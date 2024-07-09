@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "carpet",
+  "key": {
+    "a": {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "pattern": [
+    "aa"
+  ],
+  "result": {
+    "count": 18,
+    "item": "minecraft:magenta_carpet"
+  },
+  "show_notification": true
+}

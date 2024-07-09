@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood",
+  "key": {
+    "a": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:dark_oak_wood"
+  },
+  "show_notification": true
+}

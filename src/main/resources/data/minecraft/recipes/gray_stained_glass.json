@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_glass",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:glass_minus_gray"
+    },
+    "b": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:gray_stained_glass"
+  },
+  "show_notification": true
+}

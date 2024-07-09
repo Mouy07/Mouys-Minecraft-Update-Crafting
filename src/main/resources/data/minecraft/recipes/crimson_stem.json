@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wood",
+  "key": {
+    "a": {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:crimson_hyphae"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "a": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:crimson_stairs"
+  },
+  "show_notification": true
+}

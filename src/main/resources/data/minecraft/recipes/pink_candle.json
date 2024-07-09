@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_candles",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:candle_minus_pink"
+    },
+    "b": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:pink_candle"
+  },
+  "show_notification": true
+}

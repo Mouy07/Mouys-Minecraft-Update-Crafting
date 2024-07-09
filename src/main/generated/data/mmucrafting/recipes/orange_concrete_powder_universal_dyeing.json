@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_concrete_powder",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:concrete_powder_minus_orange"
+    },
+    "b": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:orange_concrete_powder"
+  },
+  "show_notification": true
+}

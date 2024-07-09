@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "a a",
+    "aba",
+    "a a"
+  ],
+  "result": {
+    "item": "minecraft:diamond_horse_armor"
+  },
+  "show_notification": true
+}

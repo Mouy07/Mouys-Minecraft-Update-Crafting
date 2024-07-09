@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "compact_carpet",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_wool"
+  }
+}

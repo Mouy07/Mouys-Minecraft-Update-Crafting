@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "item": "minecraft:granite"
+    }
+  },
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:granite_stairs"
+  },
+  "show_notification": true
+}

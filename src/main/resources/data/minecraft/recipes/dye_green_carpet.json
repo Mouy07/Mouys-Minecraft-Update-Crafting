@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_carpet",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:carpet_minus_green"
+    },
+    "b": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:green_carpet"
+  },
+  "show_notification": true
+}

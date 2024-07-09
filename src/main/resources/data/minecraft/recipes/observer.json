@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "a": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "bbc",
+    "aaa"
+  ],
+  "result": {
+    "item": "minecraft:observer"
+  },
+  "show_notification": true
+}
