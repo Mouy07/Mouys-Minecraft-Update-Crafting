@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:cherry_door"
-  },
-  "result": "minecraft:cherry_trapdoor"
-}

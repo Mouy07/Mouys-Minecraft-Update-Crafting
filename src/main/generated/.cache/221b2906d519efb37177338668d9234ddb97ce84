@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-09T00:14:04.3042895	Mouy's Minecraft Update: Crafting/Tags for minecraft:item
+// 1.20.1	2024-07-12T17:53:42.6743959	Mouy's Minecraft Update: Crafting/Tags for minecraft:item
 aed46a462e62bf793d66fc27e3732088dcfef845 data\mmucrafting\tags\items\glass_minus_purple.json
 b96119b914d581dd4c5382f6b2b08075c1bf0422 data\mmucrafting\tags\items\concrete_powder_minus_brown.json
 48738cebba1787dd6c78adcd8ae441d438aba9e8 data\mmucrafting\tags\items\carpet_minus_lime.json
@@ -46,8 +46,8 @@ a8eb03f279380fdab5abf341f896d4a3a6c1e9df data\mmucrafting\tags\items\wool_minus_
 1d9b890db27e8975cbac11d7e0e95532b0eea9ef data\mmucrafting\tags\items\wool_minus_purple.json
 c6bd53e84821ba812881213db13633ea8338b530 data\mmucrafting\tags\items\candle_minus_yellow.json
 ff8c0bec6081b286fa09d6ca7845fd8f1fe9ebb7 data\mmucrafting\tags\items\terracotta_minus_brown.json
-8e28a4f1f77782cb7b3a530072b1a205268cf2fb data\mmucrafting\tags\items\candle_minus_blue.json
 044073dfe84b2c284679111ce4616d1b73771881 data\mmucrafting\tags\items\candle_minus_purple.json
+8e28a4f1f77782cb7b3a530072b1a205268cf2fb data\mmucrafting\tags\items\candle_minus_blue.json
 257251223d7e00111b97d9395f3bff8dcceaec88 data\mmucrafting\tags\items\dead_brain_coral.json
 1d67ad0780198be557fa333815e49ba4a95f7bb3 data\mmucrafting\tags\items\terracotta_minus_lime.json
 3c0d85b3ff42f3d286351c6227c1bd642e408e09 data\mmucrafting\tags\items\wool_minus_green.json
