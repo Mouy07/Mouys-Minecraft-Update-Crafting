@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_concrete_powder",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:concrete_powder_minus_purple"
+    },
+    "b": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:purple_concrete_powder"
+  },
+  "show_notification": true
+}

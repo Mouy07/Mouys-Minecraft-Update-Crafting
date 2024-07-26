@@ -1,15 +1,14 @@
 {
 	"schemaVersion": 1,
 	"id": "mmucrafting",
-	"version": "0.2.1",
+	"version": "${version}",
 	"name": "Mouy's Minecraft Update: Crafting",
 	"description": "Overhauls a lot of crafting stuff.",
 	"authors": [
 		"Mouy"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Mouy07/Mouys-Minecraft-Update-Crafting/"
 	},
 	"license": "MIT",
 	"icon": "assets/mmucrafting/icon.png",

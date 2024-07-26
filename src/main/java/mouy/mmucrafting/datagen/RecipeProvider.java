@@ -1129,7 +1129,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('c', Items.RED_WOOL)
                 .input('d', Items.OBSIDIAN)
                 .criterion(FabricRecipeProvider.hasItem(Items.DIAMOND), FabricRecipeProvider.conditionsFromItem(Items.DIAMOND))
-                .offerTo(exporter, "changed/enchanting_table");
+                .offerTo(exporter, "x/enchanting_table");
 
         // Higher Yields
             // Bricks
@@ -1138,84 +1138,84 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .pattern("aa")
                     .input('a', Items.BRICK)
                     .criterion(FabricRecipeProvider.hasItem(Items.BRICK), FabricRecipeProvider.conditionsFromItem(Items.BRICK))
-                    .offerTo(exporter, "changed/bricks");
+                    .offerTo(exporter, "x/bricks");
 
             // Button
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.ACACIA_BUTTON, 4)
                     .input(Items.ACACIA_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.ACACIA_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.ACACIA_PLANKS))
-                    .offerTo(exporter, "changed/acacia_button");
+                    .offerTo(exporter, "x/acacia_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BAMBOO_BUTTON, 4)
                     .input(Items.BAMBOO_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.BAMBOO_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BAMBOO_PLANKS))
-                    .offerTo(exporter, "changed/bamboo_button");
+                    .offerTo(exporter, "x/bamboo_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BIRCH_BUTTON, 4)
                     .input(Items.BIRCH_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.BIRCH_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BIRCH_PLANKS))
-                    .offerTo(exporter, "changed/birch_button");
+                    .offerTo(exporter, "x/birch_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CHERRY_BUTTON, 4)
                     .input(Items.CHERRY_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.CHERRY_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CHERRY_PLANKS))
-                    .offerTo(exporter, "changed/cherry_button");
+                    .offerTo(exporter, "x/cherry_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CRIMSON_BUTTON, 4)
                     .input(Items.CRIMSON_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.CRIMSON_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CRIMSON_PLANKS))
-                    .offerTo(exporter, "changed/crimson_button");
+                    .offerTo(exporter, "x/crimson_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.DARK_OAK_BUTTON, 4)
                     .input(Items.DARK_OAK_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.DARK_OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.DARK_OAK_PLANKS))
-                    .offerTo(exporter, "changed/dark_oak_button");
+                    .offerTo(exporter, "x/dark_oak_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.JUNGLE_BUTTON, 4)
                     .input(Items.JUNGLE_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.JUNGLE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.JUNGLE_PLANKS))
-                    .offerTo(exporter, "changed/jungle_button");
+                    .offerTo(exporter, "x/jungle_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.MANGROVE_BUTTON, 4)
                     .input(Items.MANGROVE_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.MANGROVE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.MANGROVE_PLANKS))
-                    .offerTo(exporter, "changed/mangrove_button");
+                    .offerTo(exporter, "x/mangrove_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.OAK_BUTTON, 4)
                     .input(Items.OAK_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.OAK_PLANKS))
-                    .offerTo(exporter, "changed/oak_button");
+                    .offerTo(exporter, "x/oak_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.SPRUCE_BUTTON, 4)
                     .input(Items.SPRUCE_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.SPRUCE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.SPRUCE_PLANKS))
-                    .offerTo(exporter, "changed/spruce_button");
+                    .offerTo(exporter, "x/spruce_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.WARPED_BUTTON, 4)
                     .input(Items.WARPED_PLANKS)
                     .group("wooden_button")
                     .criterion(hasItem(Items.WARPED_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.WARPED_PLANKS))
-                    .offerTo(exporter, "changed/warped_button");
+                    .offerTo(exporter, "x/warped_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.STONE_BUTTON, 4)
                     .input(Items.STONE)
                     .criterion(hasItem(Items.STONE), FabricRecipeProvider.conditionsFromItem(Items.STONE))
-                    .offerTo(exporter, "changed/stone_button");
+                    .offerTo(exporter, "x/stone_button");
 
             ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.POLISHED_BLACKSTONE_BUTTON, 4)
                     .input(Items.POLISHED_BLACKSTONE)
                     .criterion(hasItem(Items.POLISHED_BLACKSTONE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_BLACKSTONE))
-                    .offerTo(exporter, "changed/polished_blackstone_button");
+                    .offerTo(exporter, "x/polished_blackstone_button");
 
             // Carpet
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WHITE_CARPET, 18)
@@ -1223,119 +1223,119 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WHITE_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_WOOL), FabricRecipeProvider.conditionsFromItem(Items.WHITE_WOOL))
-                    .offerTo(exporter, "changed/white_carpet");
+                    .offerTo(exporter, "x/white_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.LIGHT_GRAY_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_WOOL), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_WOOL))
-                    .offerTo(exporter, "changed/light_gray_carpet");
+                    .offerTo(exporter, "x/light_gray_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.GRAY_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_WOOL), FabricRecipeProvider.conditionsFromItem(Items.GRAY_WOOL))
-                    .offerTo(exporter, "changed/gray_carpet");
+                    .offerTo(exporter, "x/gray_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.BLACK_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_WOOL), FabricRecipeProvider.conditionsFromItem(Items.BLACK_WOOL))
-                    .offerTo(exporter, "changed/black_carpet");
+                    .offerTo(exporter, "x/black_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.BROWN_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_WOOL), FabricRecipeProvider.conditionsFromItem(Items.BROWN_WOOL))
-                    .offerTo(exporter, "changed/brown_carpet");
+                    .offerTo(exporter, "x/brown_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.RED_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_WOOL), FabricRecipeProvider.conditionsFromItem(Items.RED_WOOL))
-                    .offerTo(exporter, "changed/red_carpet");
+                    .offerTo(exporter, "x/red_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.ORANGE_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_WOOL), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_WOOL))
-                    .offerTo(exporter, "changed/orange_carpet");
+                    .offerTo(exporter, "x/orange_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.YELLOW_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_WOOL), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_WOOL))
-                    .offerTo(exporter, "changed/yellow_carpet");
+                    .offerTo(exporter, "x/yellow_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.LIME_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_WOOL), FabricRecipeProvider.conditionsFromItem(Items.LIME_WOOL))
-                    .offerTo(exporter, "changed/lime_carpet");
+                    .offerTo(exporter, "x/lime_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.GREEN_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_WOOL), FabricRecipeProvider.conditionsFromItem(Items.GREEN_WOOL))
-                    .offerTo(exporter, "changed/green_carpet");
+                    .offerTo(exporter, "x/green_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.CYAN_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_WOOL), FabricRecipeProvider.conditionsFromItem(Items.CYAN_WOOL))
-                    .offerTo(exporter, "changed/cyan_carpet");
+                    .offerTo(exporter, "x/cyan_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.LIGHT_BLUE_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_WOOL), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_WOOL))
-                    .offerTo(exporter, "changed/light_blue_carpet");
+                    .offerTo(exporter, "x/light_blue_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.BLUE_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_WOOL), FabricRecipeProvider.conditionsFromItem(Items.BLUE_WOOL))
-                    .offerTo(exporter, "changed/blue_carpet");
+                    .offerTo(exporter, "x/blue_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.PURPLE_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_WOOL), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_WOOL))
-                    .offerTo(exporter, "changed/purple_carpet");
+                    .offerTo(exporter, "x/purple_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.MAGENTA_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_WOOL), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_WOOL))
-                    .offerTo(exporter, "changed/magenta_carpet");
+                    .offerTo(exporter, "x/magenta_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.PINK_WOOL)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_WOOL), FabricRecipeProvider.conditionsFromItem(Items.PINK_WOOL))
-                    .offerTo(exporter, "changed/pink_carpet");
+                    .offerTo(exporter, "x/pink_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MOSS_CARPET, 18)
                     .pattern("aa")
                     .input('a', Items.MOSS_BLOCK)
                     .group("carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.MOSS_BLOCK), FabricRecipeProvider.conditionsFromItem(Items.MOSS_BLOCK))
-                    .offerTo(exporter, "changed/moss_carpet");
+                    .offerTo(exporter, "x/moss_carpet");
 
             // Door
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.ACACIA_DOOR, 6)
@@ -1345,7 +1345,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.ACACIA_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.ACACIA_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.ACACIA_PLANKS))
-                    .offerTo(exporter, "changed/acacia_door");
+                    .offerTo(exporter, "x/acacia_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BAMBOO_DOOR, 6)
                     .pattern("aa")
@@ -1354,7 +1354,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BAMBOO_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.BAMBOO_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BAMBOO_PLANKS))
-                    .offerTo(exporter, "changed/bamboo_door");
+                    .offerTo(exporter, "x/bamboo_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BIRCH_DOOR, 6)
                     .pattern("aa")
@@ -1363,7 +1363,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BIRCH_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.BIRCH_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BIRCH_PLANKS))
-                    .offerTo(exporter, "changed/birch_door");
+                    .offerTo(exporter, "x/birch_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CHERRY_DOOR, 6)
                     .pattern("aa")
@@ -1372,7 +1372,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CHERRY_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.CHERRY_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CHERRY_PLANKS))
-                    .offerTo(exporter, "changed/cherry_door");
+                    .offerTo(exporter, "x/cherry_door");
 
             // 1.21+
 //            ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.COPPER_DOOR, 6)
@@ -1382,7 +1382,7 @@ public class RecipeProvider extends FabricRecipeProvider {
 //                    .input('a', Items.COPPER_INGOT)
 //                    .group("metal_door")
 //                    .criterion(FabricRecipeProvider.hasItem(Items.COPPER_INGOT), FabricRecipeProvider.conditionsFromItem(Items.COPPER_INGOT))
-//                    .offerTo(exporter, "changed/copper_door");
+//                    .offerTo(exporter, "x/copper_door");
 
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CRIMSON_DOOR, 6)
@@ -1392,7 +1392,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CRIMSON_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.CRIMSON_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CRIMSON_PLANKS))
-                    .offerTo(exporter, "changed/crimson_door");
+                    .offerTo(exporter, "x/crimson_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.DARK_OAK_DOOR, 6)
                     .pattern("aa")
@@ -1401,7 +1401,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.DARK_OAK_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.DARK_OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.DARK_OAK_PLANKS))
-                    .offerTo(exporter, "changed/dark_oak_door");
+                    .offerTo(exporter, "x/dark_oak_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.IRON_DOOR, 6)
                     .pattern("aa")
@@ -1410,7 +1410,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.IRON_INGOT)
                     .group("metal_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT), FabricRecipeProvider.conditionsFromItem(Items.IRON_INGOT))
-                    .offerTo(exporter, "changed/iron_door");
+                    .offerTo(exporter, "x/iron_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.JUNGLE_DOOR, 6)
                     .pattern("aa")
@@ -1419,7 +1419,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.JUNGLE_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.JUNGLE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.JUNGLE_PLANKS))
-                    .offerTo(exporter, "changed/jungle_door");
+                    .offerTo(exporter, "x/jungle_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.MANGROVE_DOOR, 6)
                     .pattern("aa")
@@ -1428,7 +1428,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.MANGROVE_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.MANGROVE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.MANGROVE_PLANKS))
-                    .offerTo(exporter, "changed/mangrove_door");
+                    .offerTo(exporter, "x/mangrove_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.OAK_DOOR, 6)
                     .pattern("aa")
@@ -1437,7 +1437,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.OAK_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.OAK_PLANKS))
-                    .offerTo(exporter, "changed/oak_door");
+                    .offerTo(exporter, "x/oak_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.SPRUCE_DOOR, 6)
                     .pattern("aa")
@@ -1446,7 +1446,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.SPRUCE_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.SPRUCE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.SPRUCE_PLANKS))
-                    .offerTo(exporter, "changed/spruce_door");
+                    .offerTo(exporter, "x/spruce_door");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.WARPED_DOOR, 6)
                     .pattern("aa")
@@ -1455,7 +1455,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WARPED_PLANKS)
                     .group("wooden_door")
                     .criterion(FabricRecipeProvider.hasItem(Items.WARPED_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.WARPED_PLANKS))
-                    .offerTo(exporter, "changed/warped_door");
+                    .offerTo(exporter, "x/warped_door");
 
             // Nether Bricks
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.NETHER_BRICKS, 4)
@@ -1463,7 +1463,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .pattern("aa")
                     .input('a', Items.NETHER_BRICK)
                     .criterion(FabricRecipeProvider.hasItem(Items.NETHER_BRICK), FabricRecipeProvider.conditionsFromItem(Items.NETHER_BRICK))
-                    .offerTo(exporter, "changed/nether_bricks");
+                    .offerTo(exporter, "x/nether_bricks");
 
             // Red Nether Bricks - Vanilla
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_NETHER_BRICKS, 2)
@@ -1472,7 +1472,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.NETHER_BRICK)
                     .input('b', Items.NETHER_WART)
                     .criterion(FabricRecipeProvider.hasItem(Items.NETHER_BRICK), FabricRecipeProvider.conditionsFromItem(Items.NETHER_BRICK))
-                    .offerTo(exporter, "changed/red_nether_bricks");
+                    .offerTo(exporter, "x/red_nether_bricks");
 
             // Pressure Plate
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.ACACIA_PRESSURE_PLATE, 4)
@@ -1480,110 +1480,110 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.ACACIA_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.ACACIA_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.ACACIA_PLANKS))
-                    .offerTo(exporter, "changed/acacia_pressure_plate");
+                    .offerTo(exporter, "x/acacia_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BAMBOO_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.BAMBOO_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.BAMBOO_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BAMBOO_PLANKS))
-                    .offerTo(exporter, "changed/bamboo_pressure_plate");
+                    .offerTo(exporter, "x/bamboo_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BIRCH_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.BIRCH_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.BIRCH_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BIRCH_PLANKS))
-                    .offerTo(exporter, "changed/birch_pressure_plate");
+                    .offerTo(exporter, "x/birch_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CHERRY_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.CHERRY_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.CHERRY_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CHERRY_PLANKS))
-                    .offerTo(exporter, "changed/cherry_pressure_plate");
+                    .offerTo(exporter, "x/cherry_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CRIMSON_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.CRIMSON_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.CRIMSON_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CRIMSON_PLANKS))
-                    .offerTo(exporter, "changed/crimson_pressure_plate");
+                    .offerTo(exporter, "x/crimson_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.DARK_OAK_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.DARK_OAK_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.DARK_OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.DARK_OAK_PLANKS))
-                    .offerTo(exporter, "changed/dark_oak_pressure_plate");
+                    .offerTo(exporter, "x/dark_oak_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.HEAVY_WEIGHTED_PRESSURE_PLATE, 2)
                     .pattern("aa")
                     .input('a', Items.IRON_INGOT)
                     .group("weighted_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT), FabricRecipeProvider.conditionsFromItem(Items.IRON_INGOT))
-                    .offerTo(exporter, "changed/heavy_weighted_pressure_plate");
+                    .offerTo(exporter, "x/heavy_weighted_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.JUNGLE_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.JUNGLE_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.JUNGLE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.JUNGLE_PLANKS))
-                    .offerTo(exporter, "changed/jungle_pressure_plate");
+                    .offerTo(exporter, "x/jungle_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.LIGHT_WEIGHTED_PRESSURE_PLATE, 2)
                     .pattern("aa")
                     .input('a', Items.GOLD_INGOT)
                     .group("weighted_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.GOLD_INGOT), FabricRecipeProvider.conditionsFromItem(Items.GOLD_INGOT))
-                    .offerTo(exporter, "changed/light_weighted_pressure_plate");
+                    .offerTo(exporter, "x/light_weighted_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.MANGROVE_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.MANGROVE_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.MANGROVE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.MANGROVE_PLANKS))
-                    .offerTo(exporter, "changed/mangrove_pressure_plate");
+                    .offerTo(exporter, "x/mangrove_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.OAK_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.OAK_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.OAK_PLANKS))
-                    .offerTo(exporter, "changed/oak_pressure_plate");
+                    .offerTo(exporter, "x/oak_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.POLISHED_BLACKSTONE_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.POLISHED_BLACKSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_BLACKSTONE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_BLACKSTONE))
-                    .offerTo(exporter, "changed/polished_blackstone_pressure_plate");
+                    .offerTo(exporter, "x/polished_blackstone_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.SPRUCE_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.SPRUCE_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.SPRUCE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.SPRUCE_PLANKS))
-                    .offerTo(exporter, "changed/spruce_pressure_plate");
+                    .offerTo(exporter, "x/spruce_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.STONE_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.STONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.STONE), FabricRecipeProvider.conditionsFromItem(Items.STONE))
-                    .offerTo(exporter, "changed/stone_pressure_plate");
+                    .offerTo(exporter, "x/stone_pressure_plate");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.WARPED_PRESSURE_PLATE, 4)
                     .pattern("aa")
                     .input('a', Items.WARPED_PLANKS)
                     .group("wooden_pressure_plate")
                     .criterion(FabricRecipeProvider.hasItem(Items.WARPED_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.WARPED_PLANKS))
-                    .offerTo(exporter, "changed/warped_pressure_plate");
+                    .offerTo(exporter, "x/warped_pressure_plate");
 
             // Snow
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SNOW, 16)
                     .pattern("aa")
                     .input('a', Items.SNOW_BLOCK)
                     .criterion(FabricRecipeProvider.hasItem(Items.SNOW_BLOCK), FabricRecipeProvider.conditionsFromItem(Items.SNOW_BLOCK))
-                    .offerTo(exporter, "changed/snow");
+                    .offerTo(exporter, "x/snow");
 
             // Stairs
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.OAK_STAIRS, 4)
@@ -1592,7 +1592,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.OAK_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.OAK_PLANKS))
-                    .offerTo(exporter, "changed/oak_stairs");
+                    .offerTo(exporter, "x/oak_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SPRUCE_STAIRS, 4)
                     .pattern("a ")
@@ -1600,7 +1600,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.SPRUCE_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.SPRUCE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.SPRUCE_PLANKS))
-                    .offerTo(exporter, "changed/spruce_stairs");
+                    .offerTo(exporter, "x/spruce_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BIRCH_STAIRS, 4)
                     .pattern("a ")
@@ -1608,7 +1608,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BIRCH_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.BIRCH_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BIRCH_PLANKS))
-                    .offerTo(exporter, "changed/birch_stairs");
+                    .offerTo(exporter, "x/birch_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.JUNGLE_STAIRS, 4)
                     .pattern("a ")
@@ -1616,7 +1616,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.JUNGLE_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.JUNGLE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.JUNGLE_PLANKS))
-                    .offerTo(exporter, "changed/jungle_stairs");
+                    .offerTo(exporter, "x/jungle_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ACACIA_STAIRS, 4)
                     .pattern("a ")
@@ -1624,7 +1624,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.ACACIA_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.ACACIA_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.ACACIA_PLANKS))
-                    .offerTo(exporter, "changed/acacia_stairs");
+                    .offerTo(exporter, "x/acacia_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.DARK_OAK_STAIRS, 4)
                     .pattern("a ")
@@ -1632,7 +1632,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.DARK_OAK_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.DARK_OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.DARK_OAK_PLANKS))
-                    .offerTo(exporter, "changed/dark_oak_stairs");
+                    .offerTo(exporter, "x/dark_oak_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MANGROVE_STAIRS, 4)
                     .pattern("a ")
@@ -1640,7 +1640,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.MANGROVE_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.MANGROVE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.MANGROVE_PLANKS))
-                    .offerTo(exporter, "changed/mangrove_stairs");
+                    .offerTo(exporter, "x/mangrove_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CHERRY_STAIRS, 4)
                     .pattern("a ")
@@ -1648,7 +1648,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CHERRY_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.CHERRY_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CHERRY_PLANKS))
-                    .offerTo(exporter, "changed/cherry_stairs");
+                    .offerTo(exporter, "x/cherry_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BAMBOO_STAIRS, 4)
                     .pattern("a ")
@@ -1656,7 +1656,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BAMBOO_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.BAMBOO_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BAMBOO_PLANKS))
-                    .offerTo(exporter, "changed/bamboo_stairs");
+                    .offerTo(exporter, "x/bamboo_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CRIMSON_STAIRS, 4)
                     .pattern("a ")
@@ -1664,7 +1664,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CRIMSON_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.CRIMSON_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CRIMSON_PLANKS))
-                    .offerTo(exporter, "changed/crimson_stairs");
+                    .offerTo(exporter, "x/crimson_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WARPED_STAIRS, 4)
                     .pattern("a ")
@@ -1672,7 +1672,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WARPED_PLANKS)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.WARPED_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.WARPED_PLANKS))
-                    .offerTo(exporter, "changed/warped_stairs");
+                    .offerTo(exporter, "x/warped_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BAMBOO_MOSAIC_STAIRS, 4)
                     .pattern("a ")
@@ -1680,14 +1680,14 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BAMBOO_MOSAIC)
                     .group("wooden_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.BAMBOO_MOSAIC), FabricRecipeProvider.conditionsFromItem(Items.BAMBOO_MOSAIC))
-                    .offerTo(exporter, "changed/bamboo_mosaic_stairs");
+                    .offerTo(exporter, "x/bamboo_mosaic_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.STONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.STONE), FabricRecipeProvider.conditionsFromItem(Items.STONE))
-                    .offerTo(exporter, "changed/stone_stairs");
+                    .offerTo(exporter, "x/stone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.COBBLESTONE_STAIRS, 4)
                     .pattern("a ")
@@ -1695,7 +1695,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.COBBLESTONE)
                     .group("cobblestone_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.COBBLESTONE), FabricRecipeProvider.conditionsFromItem(Items.COBBLESTONE))
-                    .offerTo(exporter, "changed/cobblestone_stairs");
+                    .offerTo(exporter, "x/cobblestone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MOSSY_COBBLESTONE_STAIRS, 4)
                     .pattern("a ")
@@ -1703,7 +1703,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.MOSSY_COBBLESTONE)
                     .group("cobblestone_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.MOSSY_COBBLESTONE), FabricRecipeProvider.conditionsFromItem(Items.MOSSY_COBBLESTONE))
-                    .offerTo(exporter, "changed/mossy_cobblestone_stairs");
+                    .offerTo(exporter, "x/mossy_cobblestone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STONE_BRICK_STAIRS, 4)
                     .pattern("a ")
@@ -1711,7 +1711,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STONE_BRICKS)
                     .group("stone_brick_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.STONE_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.STONE_BRICKS))
-                    .offerTo(exporter, "changed/stone_brick_stairs");
+                    .offerTo(exporter, "x/stone_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MOSSY_STONE_BRICK_STAIRS, 4)
                     .pattern("a ")
@@ -1719,63 +1719,63 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.MOSSY_STONE_BRICKS)
                     .group("stone_brick_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.MOSSY_STONE_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.MOSSY_STONE_BRICKS))
-                    .offerTo(exporter, "changed/mossy_stone_brick_stairs");
+                    .offerTo(exporter, "x/mossy_stone_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRANITE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.GRANITE)
                     .criterion(FabricRecipeProvider.hasItem(Items.GRANITE), FabricRecipeProvider.conditionsFromItem(Items.GRANITE))
-                    .offerTo(exporter, "changed/granite_stairs");
+                    .offerTo(exporter, "x/granite_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_GRANITE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.POLISHED_GRANITE)
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_GRANITE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_GRANITE))
-                    .offerTo(exporter, "changed/polished_granite_stairs");
+                    .offerTo(exporter, "x/polished_granite_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.DIORITE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.DIORITE)
                     .criterion(FabricRecipeProvider.hasItem(Items.DIORITE), FabricRecipeProvider.conditionsFromItem(Items.DIORITE))
-                    .offerTo(exporter, "changed/diorite_stairs");
+                    .offerTo(exporter, "x/diorite_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_DIORITE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.POLISHED_DIORITE)
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_DIORITE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_DIORITE))
-                    .offerTo(exporter, "changed/polished_diorite_stairs");
+                    .offerTo(exporter, "x/polished_diorite_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ANDESITE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.ANDESITE)
                     .criterion(FabricRecipeProvider.hasItem(Items.ANDESITE), FabricRecipeProvider.conditionsFromItem(Items.ANDESITE))
-                    .offerTo(exporter, "changed/andesite_stairs");
+                    .offerTo(exporter, "x/andesite_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_ANDESITE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.POLISHED_ANDESITE)
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_ANDESITE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_ANDESITE))
-                    .offerTo(exporter, "changed/polished_andesite_stairs");
+                    .offerTo(exporter, "x/polished_andesite_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.COBBLED_DEEPSLATE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.COBBLED_DEEPSLATE)
                     .criterion(FabricRecipeProvider.hasItem(Items.COBBLED_DEEPSLATE), FabricRecipeProvider.conditionsFromItem(Items.COBBLED_DEEPSLATE))
-                    .offerTo(exporter, "changed/cobbled_deepslate_stairs");
+                    .offerTo(exporter, "x/cobbled_deepslate_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_DEEPSLATE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.POLISHED_DEEPSLATE)
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_DEEPSLATE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_DEEPSLATE))
-                    .offerTo(exporter, "changed/polished_deepslate_stairs");
+                    .offerTo(exporter, "x/polished_deepslate_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.DEEPSLATE_BRICK_STAIRS, 4)
                     .pattern("a ")
@@ -1783,7 +1783,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.DEEPSLATE_BRICKS)
                     .group("deepslate_brick_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.DEEPSLATE_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.DEEPSLATE_BRICKS))
-                    .offerTo(exporter, "changed/deepslate_brick_stairs");
+                    .offerTo(exporter, "x/deepslate_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.DEEPSLATE_TILE_STAIRS, 4)
                     .pattern("a ")
@@ -1791,7 +1791,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.DEEPSLATE_TILES)
                     .group("deepslate_tile_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.DEEPSLATE_TILES), FabricRecipeProvider.conditionsFromItem(Items.DEEPSLATE_TILES))
-                    .offerTo(exporter, "changed/deepslate_tile_stairs");
+                    .offerTo(exporter, "x/deepslate_tile_stairs");
 
             // 1.21+
 //            ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.TUFF_STAIRS, 4)
@@ -1799,14 +1799,14 @@ public class RecipeProvider extends FabricRecipeProvider {
 //                    .pattern("aa")
 //                    .input('a', Items.TUFF)
 //                    .criterion(FabricRecipeProvider.hasItem(Items.TUFF), FabricRecipeProvider.conditionsFromItem(Items.TUFF))
-//                    .offerTo(exporter, "changed/tuff_stairs");
+//                    .offerTo(exporter, "x/tuff_stairs");
 //
 //            ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_TUFF_STAIRS, 4)
 //                    .pattern("a ")
 //                    .pattern("aa")
 //                    .input('a', Items.POLISHED_TUFF)
 //                    .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_TUFF), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_TUFF))
-//                    .offerTo(exporter, "changed/polished_stairs");
+//                    .offerTo(exporter, "x/polished_stairs");
 //
 //            ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.TUFF_BRICK_STAIRS, 4)
 //                    .pattern("a ")
@@ -1814,98 +1814,98 @@ public class RecipeProvider extends FabricRecipeProvider {
 //                    .input('a', Items.TUFF_BRICKS)
 //                    .group("tuff_brick_stairs")
 //                    .criterion(FabricRecipeProvider.hasItem(Items.TUFF_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.TUFF_BRICKS))
-//                    .offerTo(exporter, "changed/tuff_brick_stairs");
+//                    .offerTo(exporter, "x/tuff_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BRICK_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.BRICKS)
                     .criterion(FabricRecipeProvider.hasItem(Items.BRICKS), FabricRecipeProvider.conditionsFromItem(Items.BRICKS))
-                    .offerTo(exporter, "changed/brick_stairs");
+                    .offerTo(exporter, "x/brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MUD_BRICK_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.MUD_BRICKS)
                     .criterion(FabricRecipeProvider.hasItem(Items.MUD_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.MUD_BRICKS))
-                    .offerTo(exporter, "changed/mud_brick_stairs");
+                    .offerTo(exporter, "x/mud_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SANDSTONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.SANDSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.SANDSTONE), FabricRecipeProvider.conditionsFromItem(Items.SANDSTONE))
-                    .offerTo(exporter, "changed/sandstone_stairs");
+                    .offerTo(exporter, "x/sandstone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SMOOTH_SANDSTONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.SMOOTH_SANDSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.SMOOTH_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Items.SMOOTH_SANDSTONE))
-                    .offerTo(exporter, "changed/smooth_sandstone_stairs");
+                    .offerTo(exporter, "x/smooth_sandstone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_SANDSTONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.RED_SANDSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Items.RED_SANDSTONE))
-                    .offerTo(exporter, "changed/red_sandstone_stairs");
+                    .offerTo(exporter, "x/red_sandstone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SMOOTH_RED_SANDSTONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.SMOOTH_RED_SANDSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.SMOOTH_RED_SANDSTONE), FabricRecipeProvider.conditionsFromItem(Items.SMOOTH_RED_SANDSTONE))
-                    .offerTo(exporter, "changed/smooth_red_sandstone_stairs");
+                    .offerTo(exporter, "x/smooth_red_sandstone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PRISMARINE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.PRISMARINE)
                     .criterion(FabricRecipeProvider.hasItem(Items.PRISMARINE), FabricRecipeProvider.conditionsFromItem(Items.PRISMARINE))
-                    .offerTo(exporter, "changed/prismarine_stairs");
+                    .offerTo(exporter, "x/prismarine_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PRISMARINE_BRICK_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.PRISMARINE_BRICKS)
                     .criterion(FabricRecipeProvider.hasItem(Items.PRISMARINE_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.PRISMARINE_BRICKS))
-                    .offerTo(exporter, "changed/prismarine_brick_stairs");
+                    .offerTo(exporter, "x/prismarine_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.DARK_PRISMARINE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.DARK_PRISMARINE)
                     .criterion(FabricRecipeProvider.hasItem(Items.DARK_PRISMARINE), FabricRecipeProvider.conditionsFromItem(Items.DARK_PRISMARINE))
-                    .offerTo(exporter, "changed/dark_prismarine_stairs");
+                    .offerTo(exporter, "x/dark_prismarine_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.NETHER_BRICK_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.NETHER_BRICKS)
                     .criterion(FabricRecipeProvider.hasItem(Items.NETHER_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.NETHER_BRICKS))
-                    .offerTo(exporter, "changed/nether_brick_stairs");
+                    .offerTo(exporter, "x/nether_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_NETHER_BRICK_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.RED_NETHER_BRICKS)
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_NETHER_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.RED_NETHER_BRICKS))
-                    .offerTo(exporter, "changed/red_nether_brick_stairs");
+                    .offerTo(exporter, "x/red_nether_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACKSTONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.BLACKSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACKSTONE), FabricRecipeProvider.conditionsFromItem(Items.BLACKSTONE))
-                    .offerTo(exporter, "changed/blackstone_stairs");
+                    .offerTo(exporter, "x/blackstone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_BLACKSTONE_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.POLISHED_BLACKSTONE)
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_BLACKSTONE), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_BLACKSTONE))
-                    .offerTo(exporter, "changed/polished_blackstone_stairs");
+                    .offerTo(exporter, "x/polished_blackstone_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.POLISHED_BLACKSTONE_BRICK_STAIRS, 4)
                     .pattern("a ")
@@ -1913,7 +1913,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.POLISHED_BLACKSTONE_BRICKS)
                     .group("blackstone_brick_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.POLISHED_BLACKSTONE_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.POLISHED_BLACKSTONE_BRICKS))
-                    .offerTo(exporter, "changed/polished_blackstone_brick_stairs");
+                    .offerTo(exporter, "x/polished_blackstone_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.END_STONE_BRICK_STAIRS, 4)
                     .pattern("a ")
@@ -1921,28 +1921,28 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.END_STONE_BRICKS)
                     .group("endstone_brick_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.END_STONE_BRICKS), FabricRecipeProvider.conditionsFromItem(Items.END_STONE_BRICKS))
-                    .offerTo(exporter, "changed/end_stone_brick_stairs");
+                    .offerTo(exporter, "x/end_stone_brick_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPUR_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.PURPUR_BLOCK)
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPUR_BLOCK), FabricRecipeProvider.conditionsFromItem(Items.PURPUR_BLOCK))
-                    .offerTo(exporter, "changed/purpur_stairs");
+                    .offerTo(exporter, "x/purpur_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.QUARTZ_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.QUARTZ_BLOCK)
                     .criterion(FabricRecipeProvider.hasItem(Items.QUARTZ_BLOCK), FabricRecipeProvider.conditionsFromItem(Items.QUARTZ_BLOCK))
-                    .offerTo(exporter, "changed/quartz_stairs");
+                    .offerTo(exporter, "x/quartz_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SMOOTH_QUARTZ_STAIRS, 4)
                     .pattern("a ")
                     .pattern("aa")
                     .input('a', Items.SMOOTH_QUARTZ)
                     .criterion(FabricRecipeProvider.hasItem(Items.SMOOTH_QUARTZ), FabricRecipeProvider.conditionsFromItem(Items.SMOOTH_QUARTZ))
-                    .offerTo(exporter, "changed/smooth_quartz_stairs");
+                    .offerTo(exporter, "x/smooth_quartz_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1950,7 +1950,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CUT_COPPER)
                     .group("cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.CUT_COPPER))
-                    .offerTo(exporter, "changed/cut_copper_stairs");
+                    .offerTo(exporter, "x/cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WAXED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1958,7 +1958,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WAXED_CUT_COPPER)
                     .group("waxed_cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.WAXED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.WAXED_CUT_COPPER))
-                    .offerTo(exporter, "changed/waxed_cut_copper_stairs");
+                    .offerTo(exporter, "x/waxed_cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.EXPOSED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1966,7 +1966,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.EXPOSED_CUT_COPPER)
                     .group("cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.EXPOSED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.EXPOSED_CUT_COPPER))
-                    .offerTo(exporter, "changed/exposed_cut_copper_stairs");
+                    .offerTo(exporter, "x/exposed_cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WAXED_EXPOSED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1974,7 +1974,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WAXED_EXPOSED_CUT_COPPER)
                     .group("waxed_cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.WAXED_EXPOSED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.WAXED_EXPOSED_CUT_COPPER))
-                    .offerTo(exporter, "changed/waxed_exposed_cut_copper_stairs");
+                    .offerTo(exporter, "x/waxed_exposed_cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WEATHERED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1982,7 +1982,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WEATHERED_CUT_COPPER)
                     .group("cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.WEATHERED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.WEATHERED_CUT_COPPER))
-                    .offerTo(exporter, "changed/weathered_cut_copper_stairs");
+                    .offerTo(exporter, "x/weathered_cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WAXED_WEATHERED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1990,7 +1990,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WAXED_WEATHERED_CUT_COPPER)
                     .group("waxed_cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.WAXED_WEATHERED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.WAXED_WEATHERED_CUT_COPPER))
-                    .offerTo(exporter, "changed/waxed_weathered_cut_copper_stairs");
+                    .offerTo(exporter, "x/waxed_weathered_cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.OXIDIZED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -1998,7 +1998,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.OXIDIZED_CUT_COPPER)
                     .group("cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.OXIDIZED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.OXIDIZED_CUT_COPPER))
-                    .offerTo(exporter, "changed/oxidized_cut_copper_stairs");
+                    .offerTo(exporter, "x/oxidized_cut_copper_stairs");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WAXED_OXIDIZED_CUT_COPPER_STAIRS, 4)
                     .pattern("a ")
@@ -2006,7 +2006,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WAXED_OXIDIZED_CUT_COPPER)
                     .group("waxed_cut_copper_stairs")
                     .criterion(FabricRecipeProvider.hasItem(Items.WAXED_OXIDIZED_CUT_COPPER), FabricRecipeProvider.conditionsFromItem(Items.WAXED_OXIDIZED_CUT_COPPER))
-                    .offerTo(exporter, "changed/waxed_oxidized_cut_copper_stairs");
+                    .offerTo(exporter, "x/waxed_oxidized_cut_copper_stairs");
 
             // Trapdoor
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.OAK_TRAPDOOR, 12)
@@ -2015,7 +2015,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.OAK_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.OAK_PLANKS))
-                    .offerTo(exporter, "changed/oak_trapdoor");
+                    .offerTo(exporter, "x/oak_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.SPRUCE_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2023,7 +2023,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.SPRUCE_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.SPRUCE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.SPRUCE_PLANKS))
-                    .offerTo(exporter, "changed/spruce_trapdoor");
+                    .offerTo(exporter, "x/spruce_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BIRCH_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2031,7 +2031,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BIRCH_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.BIRCH_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BIRCH_PLANKS))
-                    .offerTo(exporter, "changed/birch_trapdoor");
+                    .offerTo(exporter, "x/birch_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.JUNGLE_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2039,7 +2039,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.JUNGLE_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.JUNGLE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.JUNGLE_PLANKS))
-                    .offerTo(exporter, "changed/jungle_trapdoor");
+                    .offerTo(exporter, "x/jungle_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.ACACIA_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2047,7 +2047,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.ACACIA_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.ACACIA_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.ACACIA_PLANKS))
-                    .offerTo(exporter, "changed/acacia_trapdoor");
+                    .offerTo(exporter, "x/acacia_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.DARK_OAK_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2055,7 +2055,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.DARK_OAK_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.DARK_OAK_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.DARK_OAK_PLANKS))
-                    .offerTo(exporter, "changed/dark_oak_trapdoor");
+                    .offerTo(exporter, "x/dark_oak_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.MANGROVE_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2063,7 +2063,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.MANGROVE_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.MANGROVE_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.MANGROVE_PLANKS))
-                    .offerTo(exporter, "changed/mangrove_trapdoor");
+                    .offerTo(exporter, "x/mangrove_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CHERRY_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2071,7 +2071,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CHERRY_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.CHERRY_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CHERRY_PLANKS))
-                    .offerTo(exporter, "changed/cherry_trapdoor");
+                    .offerTo(exporter, "x/cherry_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.BAMBOO_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2079,7 +2079,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BAMBOO_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.BAMBOO_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.BAMBOO_PLANKS))
-                    .offerTo(exporter, "changed/bamboo_trapdoor");
+                    .offerTo(exporter, "x/bamboo_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.CRIMSON_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2087,7 +2087,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CRIMSON_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.CRIMSON_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.CRIMSON_PLANKS))
-                    .offerTo(exporter, "changed/crimson_trapdoor");
+                    .offerTo(exporter, "x/crimson_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.WARPED_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2095,7 +2095,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WARPED_PLANKS)
                     .group("wooden_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.WARPED_PLANKS), FabricRecipeProvider.conditionsFromItem(Items.WARPED_PLANKS))
-                    .offerTo(exporter, "changed/warped_trapdoor");
+                    .offerTo(exporter, "x/warped_trapdoor");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.IRON_TRAPDOOR, 12)
                     .pattern("aaa")
@@ -2103,7 +2103,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.IRON_INGOT)
                     .group("metal_trapdoor")
                     .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT), FabricRecipeProvider.conditionsFromItem(Items.IRON_INGOT))
-                    .offerTo(exporter, "changed/iron_trapdoor");
+                    .offerTo(exporter, "x/iron_trapdoor");
 
             // 1.21+
 //            ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.COPPER_TRAPDOOR, 12)
@@ -2112,7 +2112,7 @@ public class RecipeProvider extends FabricRecipeProvider {
 //                    .input('a', Items.COPPER_INGOT)
 //                    .group("metal_trapdoor")
 //                    .criterion(FabricRecipeProvider.hasItem(Items.COPPER_INGOT), FabricRecipeProvider.conditionsFromItem(Items.COPPER_INGOT))
-//                    .offerTo(exporter, "changed/copper_trapdoor");
+//                    .offerTo(exporter, "x/copper_trapdoor");
 
             // Wood
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.OAK_WOOD, 4)
@@ -2121,7 +2121,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.OAK_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.OAK_LOG), FabricRecipeProvider.conditionsFromItem(Items.OAK_LOG))
-                    .offerTo(exporter, "changed/oak_wood");
+                    .offerTo(exporter, "x/oak_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.SPRUCE_WOOD, 4)
                     .pattern("aa")
@@ -2129,7 +2129,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.SPRUCE_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.SPRUCE_LOG), FabricRecipeProvider.conditionsFromItem(Items.SPRUCE_LOG))
-                    .offerTo(exporter, "changed/spruce_wood");
+                    .offerTo(exporter, "x/spruce_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BIRCH_WOOD, 4)
                     .pattern("aa")
@@ -2137,7 +2137,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.BIRCH_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.BIRCH_LOG), FabricRecipeProvider.conditionsFromItem(Items.BIRCH_LOG))
-                    .offerTo(exporter, "changed/birch_wood");
+                    .offerTo(exporter, "x/birch_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.JUNGLE_WOOD, 4)
                     .pattern("aa")
@@ -2145,7 +2145,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.JUNGLE_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.JUNGLE_LOG), FabricRecipeProvider.conditionsFromItem(Items.JUNGLE_LOG))
-                    .offerTo(exporter, "changed/jungle_wood");
+                    .offerTo(exporter, "x/jungle_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ACACIA_WOOD, 4)
                     .pattern("aa")
@@ -2153,7 +2153,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.ACACIA_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.ACACIA_LOG), FabricRecipeProvider.conditionsFromItem(Items.ACACIA_LOG))
-                    .offerTo(exporter, "changed/acacia_wood");
+                    .offerTo(exporter, "x/acacia_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.DARK_OAK_WOOD, 4)
                     .pattern("aa")
@@ -2161,7 +2161,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.DARK_OAK_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.DARK_OAK_LOG), FabricRecipeProvider.conditionsFromItem(Items.DARK_OAK_LOG))
-                    .offerTo(exporter, "changed/dark_oak_wood");
+                    .offerTo(exporter, "x/dark_oak_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MANGROVE_WOOD, 4)
                     .pattern("aa")
@@ -2169,7 +2169,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.MANGROVE_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.MANGROVE_LOG), FabricRecipeProvider.conditionsFromItem(Items.MANGROVE_LOG))
-                    .offerTo(exporter, "changed/mangrove_wood");
+                    .offerTo(exporter, "x/mangrove_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CHERRY_WOOD, 4)
                     .pattern("aa")
@@ -2177,7 +2177,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CHERRY_LOG)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.CHERRY_LOG), FabricRecipeProvider.conditionsFromItem(Items.CHERRY_LOG))
-                    .offerTo(exporter, "changed/cherry_wood");
+                    .offerTo(exporter, "x/cherry_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CRIMSON_HYPHAE, 4)
                     .pattern("aa")
@@ -2185,7 +2185,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.CRIMSON_STEM)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.CRIMSON_STEM), FabricRecipeProvider.conditionsFromItem(Items.CRIMSON_STEM))
-                    .offerTo(exporter, "changed/crimson_hyphae");
+                    .offerTo(exporter, "x/crimson_hyphae");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WARPED_HYPHAE, 4)
                     .pattern("aa")
@@ -2193,7 +2193,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.WARPED_STEM)
                     .group("wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.WARPED_STEM), FabricRecipeProvider.conditionsFromItem(Items.WARPED_STEM))
-                    .offerTo(exporter, "changed/warped_hyphae");
+                    .offerTo(exporter, "x/warped_hyphae");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_OAK_WOOD, 4)
                     .pattern("aa")
@@ -2201,7 +2201,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_OAK_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_OAK_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_OAK_LOG))
-                    .offerTo(exporter, "changed/stripped_oak_wood");
+                    .offerTo(exporter, "x/stripped_oak_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_SPRUCE_WOOD, 4)
                     .pattern("aa")
@@ -2209,7 +2209,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_SPRUCE_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_SPRUCE_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_SPRUCE_LOG))
-                    .offerTo(exporter, "changed/stripped_spruce_wood");
+                    .offerTo(exporter, "x/stripped_spruce_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_BIRCH_WOOD, 4)
                     .pattern("aa")
@@ -2217,7 +2217,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_BIRCH_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_BIRCH_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_BIRCH_LOG))
-                    .offerTo(exporter, "changed/stripped_birch_wood");
+                    .offerTo(exporter, "x/stripped_birch_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_JUNGLE_WOOD, 4)
                     .pattern("aa")
@@ -2225,7 +2225,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_JUNGLE_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_JUNGLE_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_JUNGLE_LOG))
-                    .offerTo(exporter, "changed/stripped_jungle_wood");
+                    .offerTo(exporter, "x/stripped_jungle_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_ACACIA_WOOD, 4)
                     .pattern("aa")
@@ -2233,7 +2233,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_ACACIA_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_ACACIA_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_ACACIA_LOG))
-                    .offerTo(exporter, "changed/stripped_acacia_wood");
+                    .offerTo(exporter, "x/stripped_acacia_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_DARK_OAK_WOOD, 4)
                     .pattern("aa")
@@ -2241,7 +2241,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_DARK_OAK_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_DARK_OAK_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_DARK_OAK_LOG))
-                    .offerTo(exporter, "changed/stripped_dark_oak_wood");
+                    .offerTo(exporter, "x/stripped_dark_oak_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_MANGROVE_WOOD, 4)
                     .pattern("aa")
@@ -2249,7 +2249,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_MANGROVE_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_MANGROVE_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_MANGROVE_LOG))
-                    .offerTo(exporter, "changed/stripped_mangrove_wood");
+                    .offerTo(exporter, "x/stripped_mangrove_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_CHERRY_WOOD, 4)
                     .pattern("aa")
@@ -2257,7 +2257,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_CHERRY_LOG)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_CHERRY_LOG), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_CHERRY_LOG))
-                    .offerTo(exporter, "changed/stripped_cherry_wood");
+                    .offerTo(exporter, "x/stripped_cherry_wood");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_CRIMSON_HYPHAE, 4)
                     .pattern("aa")
@@ -2265,7 +2265,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_CRIMSON_STEM)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_CRIMSON_STEM), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_CRIMSON_STEM))
-                    .offerTo(exporter, "changed/stripped_crimson_hyphae");
+                    .offerTo(exporter, "x/stripped_crimson_hyphae");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.STRIPPED_WARPED_HYPHAE, 4)
                     .pattern("aa")
@@ -2273,7 +2273,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('a', Items.STRIPPED_WARPED_STEM)
                     .group("stripped_wood")
                     .criterion(FabricRecipeProvider.hasItem(Items.STRIPPED_WARPED_STEM), FabricRecipeProvider.conditionsFromItem(Items.STRIPPED_WARPED_STEM))
-                    .offerTo(exporter, "changed/stripped_warped_hyphae");
+                    .offerTo(exporter, "x/stripped_warped_hyphae");
 
         // Missing Blackstone and Deepslate Recipes
         ShapedRecipeJsonBuilder.create(RecipeCategory.BREWING, Items.BREWING_STAND)
@@ -2282,7 +2282,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('a', Items.BLAZE_ROD)
                 .input('b', ItemTags.STONE_CRAFTING_MATERIALS)
                 .criterion(FabricRecipeProvider.hasItem(Items.BLAZE_ROD), FabricRecipeProvider.conditionsFromItem(Items.BLAZE_ROD))
-                .offerTo(exporter, "changed/brewing_stand");
+                .offerTo(exporter, "x/brewing_stand");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.DISPENSER)
                 .pattern("aaa")
@@ -2293,7 +2293,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('c', Items.REDSTONE)
                 .criterion(FabricRecipeProvider.hasItem(Items.BOW), FabricRecipeProvider.conditionsFromItem(Items.BOW))
                 .criterion(FabricRecipeProvider.hasItem(Items.REDSTONE), FabricRecipeProvider.conditionsFromItem(Items.REDSTONE))
-                .offerTo(exporter, "changed/dispenser");
+                .offerTo(exporter, "x/dispenser");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.DROPPER)
                 .pattern("aaa")
@@ -2302,7 +2302,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('a', ItemTags.STONE_CRAFTING_MATERIALS)
                 .input('b', Items.REDSTONE)
                 .criterion(FabricRecipeProvider.hasItem(Items.REDSTONE), FabricRecipeProvider.conditionsFromItem(Items.REDSTONE))
-                .offerTo(exporter, "changed/dropper");
+                .offerTo(exporter, "x/dropper");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.LEVER)
                 .pattern("a")
@@ -2310,7 +2310,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('a', Items.STICK)
                 .input('b', ItemTags.STONE_CRAFTING_MATERIALS)
                 .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(Items.STICK))
-                .offerTo(exporter, "changed/lever");
+                .offerTo(exporter, "x/lever");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.OBSERVER)
                 .pattern("aaa")
@@ -2321,7 +2321,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('c', Items.QUARTZ)
                 .criterion(FabricRecipeProvider.hasItem(Items.REDSTONE), FabricRecipeProvider.conditionsFromItem(Items.REDSTONE))
                 .criterion(FabricRecipeProvider.hasItem(Items.QUARTZ), FabricRecipeProvider.conditionsFromItem(Items.QUARTZ))
-                .offerTo(exporter, "changed/observer");
+                .offerTo(exporter, "x/observer");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, Items.PISTON)
                 .pattern("aaa")
@@ -2333,7 +2333,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                 .input('d', Items.REDSTONE)
                 .criterion(FabricRecipeProvider.hasItem(Items.REDSTONE), FabricRecipeProvider.conditionsFromItem(Items.REDSTONE))
                 .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT), FabricRecipeProvider.conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(exporter, "changed/piston");
+                .offerTo(exporter, "x/piston");
 
         // Universal Dyeing
             // Candle
@@ -2345,7 +2345,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.WHITE_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_DYE), FabricRecipeProvider.conditionsFromItem(Items.WHITE_DYE))
-                    .offerTo(exporter, "changed/white_candle");
+                    .offerTo(exporter, "x/white_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_CANDLE, 8)
                     .pattern("aaa")
@@ -2355,7 +2355,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_GRAY_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_DYE))
-                    .offerTo(exporter, "changed/light_gray_candle");
+                    .offerTo(exporter, "x/light_gray_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_CANDLE, 8)
                     .pattern("aaa")
@@ -2365,7 +2365,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GRAY_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.GRAY_DYE))
-                    .offerTo(exporter, "changed/gray_candle");
+                    .offerTo(exporter, "x/gray_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_CANDLE, 8)
                     .pattern("aaa")
@@ -2375,7 +2375,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLACK_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLACK_DYE))
-                    .offerTo(exporter, "changed/black_candle");
+                    .offerTo(exporter, "x/black_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_CANDLE, 8)
                     .pattern("aaa")
@@ -2385,7 +2385,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BROWN_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_DYE), FabricRecipeProvider.conditionsFromItem(Items.BROWN_DYE))
-                    .offerTo(exporter, "changed/brown_candle");
+                    .offerTo(exporter, "x/brown_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_CANDLE, 8)
                     .pattern("aaa")
@@ -2395,7 +2395,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.RED_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_DYE), FabricRecipeProvider.conditionsFromItem(Items.RED_DYE))
-                    .offerTo(exporter, "changed/red_candle");
+                    .offerTo(exporter, "x/red_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_CANDLE, 8)
                     .pattern("aaa")
@@ -2405,7 +2405,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.ORANGE_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_DYE), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_DYE))
-                    .offerTo(exporter, "changed/orange_candle");
+                    .offerTo(exporter, "x/orange_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_CANDLE, 8)
                     .pattern("aaa")
@@ -2415,7 +2415,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.YELLOW_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_DYE), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_DYE))
-                    .offerTo(exporter, "changed/yellow_candle");
+                    .offerTo(exporter, "x/yellow_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_CANDLE, 8)
                     .pattern("aaa")
@@ -2425,7 +2425,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIME_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIME_DYE))
-                    .offerTo(exporter, "changed/lime_candle");
+                    .offerTo(exporter, "x/lime_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_CANDLE, 8)
                     .pattern("aaa")
@@ -2435,7 +2435,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GREEN_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_DYE), FabricRecipeProvider.conditionsFromItem(Items.GREEN_DYE))
-                    .offerTo(exporter, "changed/green_candle");
+                    .offerTo(exporter, "x/green_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_CANDLE, 8)
                     .pattern("aaa")
@@ -2445,7 +2445,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.CYAN_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_DYE), FabricRecipeProvider.conditionsFromItem(Items.CYAN_DYE))
-                    .offerTo(exporter, "changed/cyan_candle");
+                    .offerTo(exporter, "x/cyan_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_CANDLE, 8)
                     .pattern("aaa")
@@ -2455,7 +2455,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_BLUE_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_DYE))
-                    .offerTo(exporter, "changed/light_blue_candle");
+                    .offerTo(exporter, "x/light_blue_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_CANDLE, 8)
                     .pattern("aaa")
@@ -2465,7 +2465,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLUE_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLUE_DYE))
-                    .offerTo(exporter, "changed/blue_candle");
+                    .offerTo(exporter, "x/blue_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_CANDLE, 8)
                     .pattern("aaa")
@@ -2475,7 +2475,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PURPLE_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_DYE), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_DYE))
-                    .offerTo(exporter, "changed/purple_candle");
+                    .offerTo(exporter, "x/purple_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_CANDLE, 8)
                     .pattern("aaa")
@@ -2485,7 +2485,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.MAGENTA_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_DYE), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_DYE))
-                    .offerTo(exporter, "changed/magenta_candle");
+                    .offerTo(exporter, "x/magenta_candle");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_CANDLE, 8)
                     .pattern("aaa")
@@ -2495,7 +2495,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PINK_DYE)
                     .group("universal_dyeing_candles")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_DYE), FabricRecipeProvider.conditionsFromItem(Items.PINK_DYE))
-                    .offerTo(exporter, "changed/pink_candle");
+                    .offerTo(exporter, "x/pink_candle");
 
             // Stained Glass
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WHITE_STAINED_GLASS, 8)
@@ -2506,7 +2506,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.WHITE_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_DYE), FabricRecipeProvider.conditionsFromItem(Items.WHITE_DYE))
-                    .offerTo(exporter, "changed/white_stained_glass");
+                    .offerTo(exporter, "x/white_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2516,7 +2516,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_GRAY_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_DYE))
-                    .offerTo(exporter, "changed/light_gray_stained_glass");
+                    .offerTo(exporter, "x/light_gray_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2526,7 +2526,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GRAY_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.GRAY_DYE))
-                    .offerTo(exporter, "changed/gray_stained_glass");
+                    .offerTo(exporter, "x/gray_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2536,7 +2536,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLACK_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLACK_DYE))
-                    .offerTo(exporter, "changed/black_stained_glass");
+                    .offerTo(exporter, "x/black_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2546,7 +2546,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BROWN_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_DYE), FabricRecipeProvider.conditionsFromItem(Items.BROWN_DYE))
-                    .offerTo(exporter, "changed/brown_stained_glass");
+                    .offerTo(exporter, "x/brown_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2556,7 +2556,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.RED_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_DYE), FabricRecipeProvider.conditionsFromItem(Items.RED_DYE))
-                    .offerTo(exporter, "changed/red_stained_glass");
+                    .offerTo(exporter, "x/red_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2566,7 +2566,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.ORANGE_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_DYE), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_DYE))
-                    .offerTo(exporter, "changed/orange_stained_glass");
+                    .offerTo(exporter, "x/orange_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2576,7 +2576,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.YELLOW_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_DYE), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_DYE))
-                    .offerTo(exporter, "changed/yellow_stained_glass");
+                    .offerTo(exporter, "x/yellow_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2586,7 +2586,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIME_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIME_DYE))
-                    .offerTo(exporter, "changed/lime_stained_glass");
+                    .offerTo(exporter, "x/lime_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2596,7 +2596,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GREEN_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_DYE), FabricRecipeProvider.conditionsFromItem(Items.GREEN_DYE))
-                    .offerTo(exporter, "changed/green_stained_glass");
+                    .offerTo(exporter, "x/green_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2606,7 +2606,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.CYAN_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_DYE), FabricRecipeProvider.conditionsFromItem(Items.CYAN_DYE))
-                    .offerTo(exporter, "changed/cyan_stained_glass");
+                    .offerTo(exporter, "x/cyan_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2616,7 +2616,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_BLUE_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_DYE))
-                    .offerTo(exporter, "changed/light_blue_stained_glass");
+                    .offerTo(exporter, "x/light_blue_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2626,7 +2626,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLUE_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLUE_DYE))
-                    .offerTo(exporter, "changed/blue_stained_glass");
+                    .offerTo(exporter, "x/blue_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2636,7 +2636,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PURPLE_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_DYE), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_DYE))
-                    .offerTo(exporter, "changed/purple_stained_glass");
+                    .offerTo(exporter, "x/purple_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2646,7 +2646,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.MAGENTA_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_DYE), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_DYE))
-                    .offerTo(exporter, "changed/magenta_stained_glass");
+                    .offerTo(exporter, "x/magenta_stained_glass");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_STAINED_GLASS, 8)
                     .pattern("aaa")
@@ -2656,7 +2656,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PINK_DYE)
                     .group("universal_dyeing_glass")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_DYE), FabricRecipeProvider.conditionsFromItem(Items.PINK_DYE))
-                    .offerTo(exporter, "changed/pink_stained_glass");
+                    .offerTo(exporter, "x/pink_stained_glass");
 
             // Stained Glass Pane - must be named "<color>_stained_glass_pane_from_glass_pane"
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WHITE_STAINED_GLASS_PANE, 8)
@@ -2667,7 +2667,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.WHITE_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_DYE), FabricRecipeProvider.conditionsFromItem(Items.WHITE_DYE))
-                    .offerTo(exporter, "changed/white_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/white_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2677,7 +2677,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_GRAY_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_DYE))
-                    .offerTo(exporter, "changed/light_gray_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/light_gray_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2687,7 +2687,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GRAY_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.GRAY_DYE))
-                    .offerTo(exporter, "changed/gray_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/gray_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2697,7 +2697,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLACK_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLACK_DYE))
-                    .offerTo(exporter, "changed/black_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/black_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2707,7 +2707,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BROWN_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_DYE), FabricRecipeProvider.conditionsFromItem(Items.BROWN_DYE))
-                    .offerTo(exporter, "changed/brown_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/brown_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2717,7 +2717,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.RED_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_DYE), FabricRecipeProvider.conditionsFromItem(Items.RED_DYE))
-                    .offerTo(exporter, "changed/red_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/red_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2727,7 +2727,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.ORANGE_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_DYE), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_DYE))
-                    .offerTo(exporter, "changed/orange_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/orange_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2737,7 +2737,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.YELLOW_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_DYE), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_DYE))
-                    .offerTo(exporter, "changed/yellow_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/yellow_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2747,7 +2747,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIME_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIME_DYE))
-                    .offerTo(exporter, "changed/lime_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/lime_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2757,7 +2757,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GREEN_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_DYE), FabricRecipeProvider.conditionsFromItem(Items.GREEN_DYE))
-                    .offerTo(exporter, "changed/green_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/green_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2767,7 +2767,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.CYAN_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_DYE), FabricRecipeProvider.conditionsFromItem(Items.CYAN_DYE))
-                    .offerTo(exporter, "changed/cyan_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/cyan_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2777,7 +2777,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_BLUE_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_DYE))
-                    .offerTo(exporter, "changed/light_blue_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/light_blue_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2787,7 +2787,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLUE_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLUE_DYE))
-                    .offerTo(exporter, "changed/blue_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/blue_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2797,7 +2797,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PURPLE_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_DYE), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_DYE))
-                    .offerTo(exporter, "changed/purple_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/purple_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2807,7 +2807,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.MAGENTA_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_DYE), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_DYE))
-                    .offerTo(exporter, "changed/magenta_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/magenta_stained_glass_pane_from_glass_pane");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_STAINED_GLASS_PANE, 8)
                     .pattern("aaa")
@@ -2817,7 +2817,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PINK_DYE)
                     .group("universal_dyeing_glass_panes")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_DYE), FabricRecipeProvider.conditionsFromItem(Items.PINK_DYE))
-                    .offerTo(exporter, "changed/pink_stained_glass_pane_from_glass_pane");
+                    .offerTo(exporter, "x/pink_stained_glass_pane_from_glass_pane");
 
             // Terracotta
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WHITE_TERRACOTTA, 8)
@@ -2828,7 +2828,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.WHITE_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_DYE), FabricRecipeProvider.conditionsFromItem(Items.WHITE_DYE))
-                    .offerTo(exporter, "changed/white_terracotta");
+                    .offerTo(exporter, "x/white_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2838,7 +2838,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_GRAY_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_DYE))
-                    .offerTo(exporter, "changed/light_gray_terracotta");
+                    .offerTo(exporter, "x/light_gray_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2848,7 +2848,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GRAY_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.GRAY_DYE))
-                    .offerTo(exporter, "changed/gray_terracotta");
+                    .offerTo(exporter, "x/gray_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2858,7 +2858,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLACK_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLACK_DYE))
-                    .offerTo(exporter, "changed/black_terracotta");
+                    .offerTo(exporter, "x/black_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2868,7 +2868,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BROWN_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_DYE), FabricRecipeProvider.conditionsFromItem(Items.BROWN_DYE))
-                    .offerTo(exporter, "changed/brown_terracotta");
+                    .offerTo(exporter, "x/brown_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2878,7 +2878,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.RED_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_DYE), FabricRecipeProvider.conditionsFromItem(Items.RED_DYE))
-                    .offerTo(exporter, "changed/red_terracotta");
+                    .offerTo(exporter, "x/red_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2888,7 +2888,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.ORANGE_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_DYE), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_DYE))
-                    .offerTo(exporter, "changed/orange_terracotta");
+                    .offerTo(exporter, "x/orange_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2898,7 +2898,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.YELLOW_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_DYE), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_DYE))
-                    .offerTo(exporter, "changed/yellow_terracotta");
+                    .offerTo(exporter, "x/yellow_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2908,7 +2908,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIME_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIME_DYE))
-                    .offerTo(exporter, "changed/lime_terracotta");
+                    .offerTo(exporter, "x/lime_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2918,7 +2918,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GREEN_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_DYE), FabricRecipeProvider.conditionsFromItem(Items.GREEN_DYE))
-                    .offerTo(exporter, "changed/green_terracotta");
+                    .offerTo(exporter, "x/green_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2928,7 +2928,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.CYAN_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_DYE), FabricRecipeProvider.conditionsFromItem(Items.CYAN_DYE))
-                    .offerTo(exporter, "changed/cyan_terracotta");
+                    .offerTo(exporter, "x/cyan_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2938,7 +2938,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_BLUE_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_DYE))
-                    .offerTo(exporter, "changed/light_blue_terracotta");
+                    .offerTo(exporter, "x/light_blue_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2948,7 +2948,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLUE_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLUE_DYE))
-                    .offerTo(exporter, "changed/blue_terracotta");
+                    .offerTo(exporter, "x/blue_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2958,7 +2958,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PURPLE_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_DYE), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_DYE))
-                    .offerTo(exporter, "changed/purple_terracotta");
+                    .offerTo(exporter, "x/purple_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2968,7 +2968,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.MAGENTA_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_DYE), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_DYE))
-                    .offerTo(exporter, "changed/magenta_terracotta");
+                    .offerTo(exporter, "x/magenta_terracotta");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_TERRACOTTA, 8)
                     .pattern("aaa")
@@ -2978,7 +2978,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PINK_DYE)
                     .group("universal_dyeing_terracotta")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_DYE), FabricRecipeProvider.conditionsFromItem(Items.PINK_DYE))
-                    .offerTo(exporter, "changed/pink_terracotta");
+                    .offerTo(exporter, "x/pink_terracotta");
 
             // Wool - must be named "dye_<color>_wool"
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WHITE_WOOL, 8)
@@ -2989,7 +2989,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.WHITE_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_DYE), FabricRecipeProvider.conditionsFromItem(Items.WHITE_DYE))
-                    .offerTo(exporter, "changed/dye_white_wool");
+                    .offerTo(exporter, "x/dye_white_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_WOOL, 8)
                     .pattern("aaa")
@@ -2999,7 +2999,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_GRAY_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_DYE))
-                    .offerTo(exporter, "changed/dye_light_gray_wool");
+                    .offerTo(exporter, "x/dye_light_gray_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_WOOL, 8)
                     .pattern("aaa")
@@ -3009,7 +3009,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GRAY_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.GRAY_DYE))
-                    .offerTo(exporter, "changed/dye_gray_wool");
+                    .offerTo(exporter, "x/dye_gray_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_WOOL, 8)
                     .pattern("aaa")
@@ -3019,7 +3019,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLACK_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLACK_DYE))
-                    .offerTo(exporter, "changed/dye_black_wool");
+                    .offerTo(exporter, "x/dye_black_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_WOOL, 8)
                     .pattern("aaa")
@@ -3029,7 +3029,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BROWN_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_DYE), FabricRecipeProvider.conditionsFromItem(Items.BROWN_DYE))
-                    .offerTo(exporter, "changed/dye_brown_wool");
+                    .offerTo(exporter, "x/dye_brown_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_WOOL, 8)
                     .pattern("aaa")
@@ -3039,7 +3039,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.RED_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_DYE), FabricRecipeProvider.conditionsFromItem(Items.RED_DYE))
-                    .offerTo(exporter, "changed/dye_red_wool");
+                    .offerTo(exporter, "x/dye_red_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_WOOL, 8)
                     .pattern("aaa")
@@ -3049,7 +3049,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.ORANGE_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_DYE), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_DYE))
-                    .offerTo(exporter, "changed/dye_orange_wool");
+                    .offerTo(exporter, "x/dye_orange_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_WOOL, 8)
                     .pattern("aaa")
@@ -3059,7 +3059,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.YELLOW_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_DYE), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_DYE))
-                    .offerTo(exporter, "changed/dye_yellow_wool");
+                    .offerTo(exporter, "x/dye_yellow_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_WOOL, 8)
                     .pattern("aaa")
@@ -3069,7 +3069,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIME_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIME_DYE))
-                    .offerTo(exporter, "changed/dye_lime_wool");
+                    .offerTo(exporter, "x/dye_lime_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_WOOL, 8)
                     .pattern("aaa")
@@ -3079,7 +3079,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GREEN_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_DYE), FabricRecipeProvider.conditionsFromItem(Items.GREEN_DYE))
-                    .offerTo(exporter, "changed/dye_green_wool");
+                    .offerTo(exporter, "x/dye_green_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_WOOL, 8)
                     .pattern("aaa")
@@ -3089,7 +3089,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.CYAN_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_DYE), FabricRecipeProvider.conditionsFromItem(Items.CYAN_DYE))
-                    .offerTo(exporter, "changed/dye_cyan_wool");
+                    .offerTo(exporter, "x/dye_cyan_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_WOOL, 8)
                     .pattern("aaa")
@@ -3099,7 +3099,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_BLUE_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_DYE))
-                    .offerTo(exporter, "changed/dye_light_blue_wool");
+                    .offerTo(exporter, "x/dye_light_blue_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_WOOL, 8)
                     .pattern("aaa")
@@ -3109,7 +3109,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLUE_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLUE_DYE))
-                    .offerTo(exporter, "changed/dye_blue_wool");
+                    .offerTo(exporter, "x/dye_blue_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_WOOL, 8)
                     .pattern("aaa")
@@ -3119,7 +3119,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PURPLE_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_DYE), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_DYE))
-                    .offerTo(exporter, "changed/dye_purple_wool");
+                    .offerTo(exporter, "x/dye_purple_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_WOOL, 8)
                     .pattern("aaa")
@@ -3129,7 +3129,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.MAGENTA_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_DYE), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_DYE))
-                    .offerTo(exporter, "changed/dye_magenta_wool");
+                    .offerTo(exporter, "x/dye_magenta_wool");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_WOOL, 8)
                     .pattern("aaa")
@@ -3139,7 +3139,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PINK_DYE)
                     .group("universal_dyeing_wool")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_DYE), FabricRecipeProvider.conditionsFromItem(Items.PINK_DYE))
-                    .offerTo(exporter, "changed/dye_pink_wool");
+                    .offerTo(exporter, "x/dye_pink_wool");
 
             // Carpet - must be named "dye_<color>_carpet"
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.WHITE_CARPET, 8)
@@ -3150,7 +3150,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.WHITE_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.WHITE_DYE), FabricRecipeProvider.conditionsFromItem(Items.WHITE_DYE))
-                    .offerTo(exporter, "changed/dye_white_carpet");
+                    .offerTo(exporter, "x/dye_white_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_GRAY_CARPET, 8)
                     .pattern("aaa")
@@ -3160,7 +3160,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_GRAY_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_GRAY_DYE))
-                    .offerTo(exporter, "changed/dye_light_gray_carpet");
+                    .offerTo(exporter, "x/dye_light_gray_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GRAY_CARPET, 8)
                     .pattern("aaa")
@@ -3170,7 +3170,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GRAY_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.GRAY_DYE), FabricRecipeProvider.conditionsFromItem(Items.GRAY_DYE))
-                    .offerTo(exporter, "changed/dye_gray_carpet");
+                    .offerTo(exporter, "x/dye_gray_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLACK_CARPET, 8)
                     .pattern("aaa")
@@ -3180,7 +3180,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLACK_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLACK_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLACK_DYE))
-                    .offerTo(exporter, "changed/dye_black_carpet");
+                    .offerTo(exporter, "x/dye_black_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BROWN_CARPET, 8)
                     .pattern("aaa")
@@ -3190,7 +3190,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BROWN_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.BROWN_DYE), FabricRecipeProvider.conditionsFromItem(Items.BROWN_DYE))
-                    .offerTo(exporter, "changed/dye_brown_carpet");
+                    .offerTo(exporter, "x/dye_brown_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.RED_CARPET, 8)
                     .pattern("aaa")
@@ -3200,7 +3200,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.RED_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.RED_DYE), FabricRecipeProvider.conditionsFromItem(Items.RED_DYE))
-                    .offerTo(exporter, "changed/dye_red_carpet");
+                    .offerTo(exporter, "x/dye_red_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_CARPET, 8)
                     .pattern("aaa")
@@ -3210,7 +3210,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.ORANGE_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.ORANGE_DYE), FabricRecipeProvider.conditionsFromItem(Items.ORANGE_DYE))
-                    .offerTo(exporter, "changed/dye_orange_carpet");
+                    .offerTo(exporter, "x/dye_orange_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_CARPET, 8)
                     .pattern("aaa")
@@ -3220,7 +3220,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.YELLOW_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.YELLOW_DYE), FabricRecipeProvider.conditionsFromItem(Items.YELLOW_DYE))
-                    .offerTo(exporter, "changed/dye_yellow_carpet");
+                    .offerTo(exporter, "x/dye_yellow_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIME_CARPET, 8)
                     .pattern("aaa")
@@ -3230,7 +3230,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIME_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIME_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIME_DYE))
-                    .offerTo(exporter, "changed/dye_lime_carpet");
+                    .offerTo(exporter, "x/dye_lime_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_CARPET, 8)
                     .pattern("aaa")
@@ -3240,7 +3240,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.GREEN_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.GREEN_DYE), FabricRecipeProvider.conditionsFromItem(Items.GREEN_DYE))
-                    .offerTo(exporter, "changed/dye_green_carpet");
+                    .offerTo(exporter, "x/dye_green_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_CARPET, 8)
                     .pattern("aaa")
@@ -3250,7 +3250,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.CYAN_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.CYAN_DYE), FabricRecipeProvider.conditionsFromItem(Items.CYAN_DYE))
-                    .offerTo(exporter, "changed/dye_cyan_carpet");
+                    .offerTo(exporter, "x/dye_cyan_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_CARPET, 8)
                     .pattern("aaa")
@@ -3260,7 +3260,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.LIGHT_BLUE_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.LIGHT_BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.LIGHT_BLUE_DYE))
-                    .offerTo(exporter, "changed/dye_light_blue_carpet");
+                    .offerTo(exporter, "x/dye_light_blue_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_CARPET, 8)
                     .pattern("aaa")
@@ -3270,7 +3270,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.BLUE_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.BLUE_DYE), FabricRecipeProvider.conditionsFromItem(Items.BLUE_DYE))
-                    .offerTo(exporter, "changed/dye_blue_carpet");
+                    .offerTo(exporter, "x/dye_blue_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_CARPET, 8)
                     .pattern("aaa")
@@ -3280,7 +3280,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PURPLE_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.PURPLE_DYE), FabricRecipeProvider.conditionsFromItem(Items.PURPLE_DYE))
-                    .offerTo(exporter, "changed/dye_purple_carpet");
+                    .offerTo(exporter, "x/dye_purple_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_CARPET, 8)
                     .pattern("aaa")
@@ -3290,7 +3290,7 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.MAGENTA_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.MAGENTA_DYE), FabricRecipeProvider.conditionsFromItem(Items.MAGENTA_DYE))
-                    .offerTo(exporter, "changed/dye_magenta_carpet");
+                    .offerTo(exporter, "x/dye_magenta_carpet");
 
             ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Items.PINK_CARPET, 8)
                     .pattern("aaa")
@@ -3300,6 +3300,6 @@ public class RecipeProvider extends FabricRecipeProvider {
                     .input('b', Items.PINK_DYE)
                     .group("universal_dyeing_carpet")
                     .criterion(FabricRecipeProvider.hasItem(Items.PINK_DYE), FabricRecipeProvider.conditionsFromItem(Items.PINK_DYE))
-                    .offerTo(exporter, "changed/dye_pink_carpet");
+                    .offerTo(exporter, "x/dye_pink_carpet");
     }
 }

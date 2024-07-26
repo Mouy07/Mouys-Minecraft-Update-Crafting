@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "compact_carpet",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_wool"
+  }
+}

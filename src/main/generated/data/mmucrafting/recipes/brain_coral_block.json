@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "coral_block",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:brain_coral"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "result": {
+    "item": "minecraft:brain_coral_block"
+  },
+  "show_notification": true
+}

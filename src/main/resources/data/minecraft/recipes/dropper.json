@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "a": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "a a",
+    "aba"
+  ],
+  "result": {
+    "item": "minecraft:dropper"
+  },
+  "show_notification": true
+}

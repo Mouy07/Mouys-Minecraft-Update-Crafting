@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "compact_carpet",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    },
+    {
+      "item": "minecraft:pink_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_wool"
+  }
+}

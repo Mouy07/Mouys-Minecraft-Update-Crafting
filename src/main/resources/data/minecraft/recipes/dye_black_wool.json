@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "universal_dyeing_wool",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:wool_minus_black"
+    },
+    "b": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:black_wool"
+  },
+  "show_notification": true
+}

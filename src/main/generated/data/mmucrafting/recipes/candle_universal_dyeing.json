@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "mmucrafting:dyed_candle"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:candle"
+  },
+  "show_notification": true
+}

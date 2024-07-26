@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "endstone_brick_stairs",
+  "key": {
+    "a": {
+      "item": "minecraft:end_stone_bricks"
+    }
+  },
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:end_stone_brick_stairs"
+  },
+  "show_notification": true
+}
